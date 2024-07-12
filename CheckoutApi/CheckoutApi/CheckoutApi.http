@@ -1,0 +1,15 @@
+@CheckoutApi_HostAddress = https://localhost:7165
+
+POST {{CheckoutApi_HostAddress}}/v1/checkout HTTP/1.1
+Content-Type: application/json
+
+{
+  "items": [
+    {
+      "id": "A",
+      "quantity": 3
+    }
+  ]
+}
+
+###

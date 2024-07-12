@@ -1,0 +1,30 @@
+﻿{
+  "StockOptions": {
+    "Stock": {
+      "A": {
+        "Id": "A",
+        "Price": 50.00,
+        "BulkOffer": {
+          "Quantity": 3,
+          "Price": 130.00
+        }
+      },
+      "B": {
+        "Id": "B",
+        "Price": 30.00,
+        "BulkOffer": {
+          "Quantity": 2,
+          "Price": 45.00
+        }
+      },
+      "C": {
+        "Id": "C",
+        "Price": 20.00
+      },
+      "D": {
+        "Id": "D",
+        "Price": 15.00
+      }
+    }
+  }
+}
